@@ -26,7 +26,7 @@
   "dependencies": {
   "react": "^16.14.0",
   "react-dom": "^16.14.0",
-  "react-reveal": "^1.2.2",
+  "react-reveal": "^1.2.2"
 },
   "scripts": {
     "start": "react-scripts start",
