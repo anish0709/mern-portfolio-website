@@ -21,7 +21,7 @@
     "react-reveal": "^1.2.2"
   },
   "devDependencies": {
-    "@testing-library/react": "^12.1.5",
+    "@testing-library/react": "^12.1.5"
     
 "engines": {
   "node": ">=14.0.0"
