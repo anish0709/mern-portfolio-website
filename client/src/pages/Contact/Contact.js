@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { toast } from "react-toastify";
 import axios from "axios";
 import "./Contact.css";
-import Rotate from "react-reveal/Rotate";
-import LightSpeed from "react-reveal/LightSpeed";
+// import Rotate from "react-reveal/Rotate";
+// import LightSpeed from "react-reveal/LightSpeed";
+import { Rotate, Slide  } from "react-awesome-reveal";
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 const Contact = () => {
   const [name, setname] = useState("");
@@ -44,13 +45,13 @@ const Contact = () => {
             <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
               <div className="card1">
                 <div className="row border-line">
-                  <LightSpeed>
+                  <Slide>
                     <img
                       src="https://img.freepik.com/free-photo/hot-line-contact-us-call-center-search-interface_53876-124009.jpg?w=2000"
                       alt="ocontact"
                       className="image"
                     />
-                  </LightSpeed>
+                  </Slide>
                 </div>
               </div>
             </div>
