@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-// import Spin from "react-reveal/Spin";
+
 const Projects = () => {
   return (
     <>
