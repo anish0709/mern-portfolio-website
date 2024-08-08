@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 import Resume from "../../assets/docs/anish-singhal.pdf";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import "./home.css";
-import Fade from "react-reveal/Fade";
+import Fade from "react-awesome-reveal";
 
 const Home = () => {
   const [theme, setTheme] = useTheme();
