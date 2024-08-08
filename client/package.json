@@ -20,9 +20,6 @@
     "web-vitals": "^2.1.4",
     "react-reveal": "^1.2.2"
   },
-  "devDependencies": {
-    "@testing-library/react": "^12.1.5"
-  },
 "engines": {
   "node": ">=14.0.0"
 },
