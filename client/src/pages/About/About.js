@@ -1,11 +1,12 @@
 import React from "react";
 import "./About.css";
-import Jump from "react-reveal/Jump";
+// import Jump from "react-reveal/Jump";
+import { Bounce } from 'react-awesome-reveal';
 import photo from '../../assets/docs/Evolution-of-Coding-scaled.jpg';
 const About = () => {
   return (
     <>
-      <Jump>
+      <Bounce>
         <div className="about" id="about">
           <div className="row">
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
@@ -22,7 +23,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </Jump>
+      </Bounce>
     </>
   );
 };
