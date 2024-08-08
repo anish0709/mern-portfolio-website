@@ -1,7 +1,9 @@
 import React from "react";
 import "./Menus.css";
-import Zoom from "react-reveal/Zoom";
-import Fade from "react-reveal/Fade";
+// import Zoom from "react-reveal/Zoom";
+// import Fade from "react-reveal/Fade";
+import { Zoom, Fade } from "react-awesome-reveal";
+
 import { Link } from "react-scroll";
 import photo from '../../assets/docs/photo (1)-min (1).jpg';
 import {
