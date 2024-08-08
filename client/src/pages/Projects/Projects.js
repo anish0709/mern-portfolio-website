@@ -18,7 +18,7 @@ const Projects = () => {
         </p>
         {/* card design */}
         <div className="row" id="ads">
-          // <Spin>
+  
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
@@ -101,7 +101,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          // </Spin>
+       
         </div>
       </div>
     </>
